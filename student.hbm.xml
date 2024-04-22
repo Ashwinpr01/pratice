@@ -1,0 +1,11 @@
+<hibernate-mapping>
+<class name="org.example.Student" table="Student">
+<id name="id" type="int" column="id">
+<generator class="native"/>
+</id>
+<property name="totalmarks" column="totalmarks" type="int"/>
+<property name="usn" column="usn" type="string"/>
+<property name="name" column="name" type="string"/>
+<property name="address" column="address" type="string"/>
+</class>
+</hibernate-mapping>
